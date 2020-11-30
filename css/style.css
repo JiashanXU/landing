@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Castoro&display=swap");
+@import url("components/container.css");
+@import url("components/avatar.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/card.css");
+@import url("components/learning.css");
+
+body{
+	font-family:'Castoro', serif;
+	font-size: 18px;
+	margin:0px;
+	background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaqljr6eBvEgAVa0T-SQLYJWMtRZNS1hgOmw&usqp=CAU)
+}
+
+.clearfix:after { /*在类名为“clearfix”的元素内最后面加入内容； */
+    content: ".";     /*内容为“.”就是一个英文的句号而已。也可以不写。*/
+    display: block;   /*加入的这个元素转换为块级元素。*/
+    clear: both;     /*清除左右两边浮动。*/
+    visibility: hidden;      /*可见度设为隐藏。注意它和display:none;是有区别的。仍然占据空间，只是看不到而已；*/
+    height: 0;     /*高度为0；*/
+    font-size:0;    /*字体大小为0；*/
+}
+h1{
+	font-family:'Roboto', sans-serif;
+	font-weight:bold;
+	font-size: 20px;
+}
+
+a{
+	text-decoration:none;
+	color:#B35723;
+
+}
+
+
+h2{
+	font-family:'Roboto', sans-serif;
+	font-weight:bold;
+	font-size: 30px;
+}
+h3{
+	font-family: 'Oswald', sans-serif;
+	color:#B35723;
+	font-weight:black;
+}
+
+.ico-box {
+	width:900px;
+	margin:20px auto;
+}
+.ico-box ul {
+	list-style:none;
+}
+.ico-box ul li {
+	float:left;
+	height:22px;
+	margin:0 5px;
+}
+.ico-box ul li img {
+	display:block;
+	float:left;
+}
+.ico-box ul li p {
+	float:right;
+	height:22px;
+	line-height:22px;
+	font-size:14px;
+	padding-left:10px;
+	text-transform:uppercase;
+	margin:0;
+}
+.space {
+	height:450px;
+}
+.center-pic {
+	position:absolute;
+	width:296px;
+	left:400px;
+	top:100px;
+}
+.text-center {
+	text-align:center;
+}
+
+
+
+
+
+

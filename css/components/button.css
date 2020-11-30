@@ -1,0 +1,31 @@
+.btn-blue{
+	background-color:#D2C4B1;
+	padding:15px 20px;
+	border-radius:4px;
+	font-weight:bold;
+	font-family:'Roboto', sans-serif;
+	position:absolute;
+	right:50px;
+	bottom:50px;	
+}
+
+.check{
+	background-color:#D2C4B1;
+	padding:15px 20px;
+	border-radius:4px;
+	font-weight:bold;
+	font-family:'Roboto', sans-serif;
+	position:absolute;
+	right:50px;
+	bottom:120px;	
+}
+
+.brown{
+	background-color:#D2C4B1;
+	padding:15px 20px;
+	border-radius:4px;
+	font-weight:bold;
+	font-family:'Roboto', sans-serif;
+	margin:10px auto;
+	display:inline-block;
+}
